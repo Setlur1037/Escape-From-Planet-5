@@ -1,0 +1,84 @@
+body{
+	background:linear-gradient(black,#dd4800);
+	background-position:bottom left;
+	background-repeat:repeat-x;
+	}
+canvas{
+	border:2px solid white;
+	/*margin-top:50px;*/
+	margin-bottom:50px;
+	margin-left:400px;
+	background-image:url("http://www.ultradrive.com/images/rdx_starfield.jpg");
+	float:center;
+}
+
+#header{
+	background-color:no-color;
+}
+#heading{
+	color:yellow;
+	text-align:center;
+	font-size:30px;
+	font-family:Lucida Console;
+}
+#subtext{
+	 color:red;
+	 text-align:center;
+	 font-size:20px;
+	 font-family:Impact;
+ }
+#rectangle{
+	height: 550px;
+	width: 500px;
+	background-image:url("http://www.ultradrive.com/images/rdx_starfield.jpg");
+	background-color:white;
+	color:white; 
+	font-size:15px;
+	font-family: Verdana;
+	border:2px solid white;
+}
+#button{
+	 margin-top: 50px;
+	 -webkit-animation-delay:10s
+	 
+ }
+#setting1{
+	margin-top:125px;
+	 -webkit-animation-delay:2s
+}
+#setting2{
+	margin-top:25px;
+	 -webkit-animation-delay:4s
+}
+#setting3{
+	margin-top:25px;
+	 -webkit-animation-delay:6s
+}
+#setting4{
+	margin-top:25px;
+	margin-bottom:25px;
+	-webkit-animation-delay:8s
+}
+@-webkit-keyframes fadeIn { 
+	from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.fade-in{
+	opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;
+  -webkit-animation-fill-mode:forwards;
+}
+a{
+	color:blue;
+	text-decoration: none;
+	text-align:center;
+	background-color:white;
+	font-family:Impact;
+	border:5px solid white;
+}
+
+	
