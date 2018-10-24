@@ -11,7 +11,6 @@ canvas{
 	background-image:url("http://www.ultradrive.com/images/rdx_starfield.jpg");
 	float:center;
 }
-
 #header{
 	background-color:no-color;
 }
@@ -44,22 +43,30 @@ canvas{
  }
 #setting1{
 	margin-top:125px;
-	 -webkit-animation-delay:2s
+	 /*-webkit-animation-delay:2s*/
+}
+#setting1a{
+	display:inline-block;
 }
 #setting2{
+	display:inline-block;
 	margin-top:25px;
-	 -webkit-animation-delay:4s
+	/*-webkit-animation-delay:4s*/
 }
 #setting3{
 	margin-top:25px;
-	 -webkit-animation-delay:6s
+	 /*-webkit-animation-delay:6s*/
+}
+#setting3a{
+	display:inline-block;
 }
 #setting4{
+	display:inline-block;
 	margin-top:25px;
 	margin-bottom:25px;
-	-webkit-animation-delay:8s
+	/*-webkit-animation-delay:8s*/
 }
-@-webkit-keyframes fadeIn { 
+/*@-webkit-keyframes fadeIn { 
 	from{
         opacity:0;
     }
@@ -68,10 +75,10 @@ canvas{
     }
 }
 .fade-in{
-	opacity:0;  /* make things invisible upon start */
+	opacity:0;  /* make things invisible upon start 
   -webkit-animation:fadeIn ease-in 1;
   -webkit-animation-fill-mode:forwards;
-}
+}*/
 a{
 	color:blue;
 	text-decoration: none;
